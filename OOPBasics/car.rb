@@ -27,9 +27,9 @@ class Car
   #   return @color
   # end
 
-  def color=(new_color)
-    @color = new_color
-  end
+  # def color=(new_color)
+  #   @color = new_color
+  # end
 
   # def brand
   #   return @brand

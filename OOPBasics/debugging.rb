@@ -25,4 +25,3 @@ p "this is the end of the file"
 #keywords next for next line, continue for next breakpoint
 
 
-arr = [1,2,3,4,5]

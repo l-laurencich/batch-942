@@ -15,17 +15,17 @@ class Skyscraper < Building #smaller than + name of parent class = inheritance
     end
   end
 
-  def capitalized_name #getter method
+  def capitalized_name 
     @name.capitalize
   end
 end
 
 
-my_skyscraper = Skyscraper.new("burj khalifa", 70, 100, 892)
-p my_skyscraper
-p my_skyscraper.name
-p my_skyscraper.length
-p my_skyscraper.floor_area
-p my_skyscraper.type_of_owner
+# my_skyscraper = Skyscraper.new("burj khalifa", 70, 100, 892)
+# p my_skyscraper
+# p my_skyscraper.name
+# p my_skyscraper.length
+# p my_skyscraper.floor_area
+# p my_skyscraper.type_of_owner
 # p my_skyscraper.height
-p my_skyscraper.capitalized_name
+# p my_skyscraper.capitalized_name

@@ -38,7 +38,7 @@ ludwigs_castle = Castle.new("my magnificent castle", 500, 500, "Ludwig II")
 # p ludwigs_castle
 
 # p ludwigs_castle.butler
-p ludwigs_castle.ownership_details
+# p ludwigs_castle.ownership_details
 # p ludwigs_castle.butler.clean_castle
 # p my_castle.name
 # p my_castle.length
@@ -47,7 +47,7 @@ p ludwigs_castle.ownership_details
 # puts "#***********"
 # p my_castle.has_a_butler?
 # p my_castle.butler
-# my_castle.butler=0
+# my_castle.butler="Jervis"
 # p my_castle.butler
 # p my_castle.has_a_butler? #we call instance methods on instances
 # # p my_castle.categories -- can't call a class method on an instance

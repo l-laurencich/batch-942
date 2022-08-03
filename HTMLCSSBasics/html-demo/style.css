@@ -1,0 +1,65 @@
+/* TODO: design your profile with CSS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&family=Roboto:wght@100;400;700&display=swap');
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(220, 220, 220);
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+  color: #7ECE90;
+}
+
+a {
+  text-decoration: none;
+}
+
+div {
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 40%;
+  margin: 32px auto;
+  text-align: center;
+}
+
+img{
+  border-radius: 50%;
+}
+
+.btn {
+  padding: 8px 24px;
+  background-color: rgb(66, 66, 204);
+  color: white;
+  border-radius: 4px;
+  margin: 8px 0;
+}
+
+.btn:hover {
+  background-color: rgb(36, 36, 106);
+}
+
+.social {
+  display: inline-block;
+}
+
+.social a {
+  color: rgb(178, 178, 178);
+  font-size: 24px;
+  margin: 8px;
+}
+
+
+.social a:hover {
+  color: black;
+}
+
+ul {
+  padding: 0;
+}

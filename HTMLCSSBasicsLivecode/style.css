@@ -1,0 +1,71 @@
+body {
+  background: rgb(206, 206, 206);
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 300px;
+}
+
+.card-white-image {
+  height: 150px;
+  margin: 8px;
+}
+
+.card-white {
+  background-color: white;
+  border: 1px solid white;
+}
+
+.btn {
+  background: white;
+  color:rgb(206, 206, 206);
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin: 8px;
+  display: inline-block;
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.card-white:hover .btn {
+  opacity: 1;
+}
+
+.btn:hover {
+  color: black;
+}
+
+.list-inline {
+  text-align: right;
+  padding: 4px;
+  color: rgb(206, 206, 206);
+  margin: 4px;
+
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 50px;
+  margin-right: 8px;
+}
+
+.card-user {
+  display: flex;
+  align-items: center;
+}

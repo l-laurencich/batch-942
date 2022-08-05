@@ -19,7 +19,7 @@ a {
   text-decoration: none;
 }
 
-div {
+.card {
   background: white;                         /* White background */
   padding: 30px;                             /* Internal space */
   border-radius: 4px;                        /* Small radius */
